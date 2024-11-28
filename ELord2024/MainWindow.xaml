@@ -8,6 +8,17 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="323,143,0,0" VerticalAlignment="Top" Height="99" Width="104" Foreground="#FFC00707" Background="#FFCE8D03"/>
+        <ComboBox HorizontalAlignment="Center" Margin="0,294,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF9EF617" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="alex"/>
+            <ComboBoxItem Content="africa"/>
+            <ComboBoxItem Content="cairo"/>
+        </ComboBox>
 
     </Grid>
 </Window>
